@@ -11,7 +11,11 @@ https://tutorials-raspberrypi.de/wp-content/uploads/luftfeuchtigkeit_DHT11_Steck
 
 We will do code together.
 
+
 Then follow this tutorial on how to get the Pi up and running with MQTT.
+https://www.arrow.com/en/research-and-events/articles/mqtt-tutorial
+
+When it comes to setting up our own broker, follow this article on how to specifically set up a password on the pi and also what software to use as a Broker on your PC.
 https://desertbot.io/blog/headless-raspberry-pi-4-mqtt-setup
 
 ****Note that you must download the Windows portable version of MQTT Explorer****
