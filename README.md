@@ -18,5 +18,12 @@ https://www.arrow.com/en/research-and-events/articles/mqtt-tutorial
 When it comes to setting up our own broker, follow this article on how to specifically set up a password on the pi and also what software to use as a Broker on your PC.
 https://desertbot.io/blog/headless-raspberry-pi-4-mqtt-setup
 
+To be able to do this in code
+in code 
+import os
+
+then add to code with your_topic and your_data
+os.system("mosquitto_pub -h [BROKER_IPADDRESS] -t \"your_topic\" -m \"your_data\"")
+
 ****Note that you must download the Windows portable version of MQTT Explorer****
 https://github.com/thomasnordquist/MQTT-Explorer/releases/download/0.0.0-0.4.0-beta1/MQTT-Explorer-0.4.0-beta1.exe
